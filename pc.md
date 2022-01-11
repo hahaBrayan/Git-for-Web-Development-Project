@@ -21,8 +21,14 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
-2. Why do we create a branch? 
+Git is a tool that allows us to work on projects locally and can be used to interact with softwares like GitHub. GitHub is a cloud software which allows us to work on projects remotely and at scale.
+2. Why do we create a branch?
+We do not want to work in the main directory until we are ready to make the changes to our product. 
 3. What is the purpose of a pull request? 
+This allows our team to review the changes we have made to our project.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+we can use the cd command
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+Git pull will do both git fetch and git merge commands. A Git fetch command simply retrieves data from a remote repo into our local one; the merge command will combine files with our working directory. Git pull does both. 
 6. What is a merge conflict? How do you resolve a merge conflict? 
+This is when two changes are made to the same file. For instance, I made some change to a file and someone else deletes it. We would have to go back to the original changes and either change them, or decide which branch's changes we should keep.
